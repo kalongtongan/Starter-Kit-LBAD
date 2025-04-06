@@ -31,7 +31,7 @@ A Laravel starter project with Breeze authentication, AdminLTE UI, and DataTable
 3. Install frontend dependencies: `npm install`
 4. Copy `.env.example` to `.env`: `cp .env.example .env`
 5. Generate app key: `php artisan key:generate`
-6. Setup database (e.g., SQLite: `touch database/database.sqlite`)
+6. Setup database (e.g., MySQL or SQLite)
 7. Run migrations: `php artisan migrate`
 8. Compile assets: `npm run dev`
 9. Run server: `php artisan serve`
@@ -41,7 +41,10 @@ A Laravel starter project with Breeze authentication, AdminLTE UI, and DataTable
 - Authentication with Laravel Breeze (login, register, reset password, email verification)
 - AdminLTE UI for admin panel
 - DataTables with server-side processing and export (CSV, Excel, PDF, Print)
-- Example "Customers" module with CRUD functionality
+- Three main menus:
+  - **Dashboard**: Root page (`/`)
+  - **DataTables**: Example DataTables with dummy data (`data.json`)
+  - **Users**: CRUD for managing users (using Laravel's default `users` table)
 
 ## Contributing
 
