@@ -41,13 +41,13 @@
                                 <p>Dashboard</p>
                             </a>
                         </li>
-                        {{-- <li class="nav-item">
+                        <li class="nav-item">
                             <a href="{{ route('datatables') }}"
                                 class="nav-link {{ request()->routeIs('datatables') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>DataTables</p>
                             </a>
-                        </li> --}}
+                        </li>
                         {{-- <li class="nav-item">
                             <a href="{{ route('users.index') }}"
                                 class="nav-link {{ request()->routeIs('users.*') ? 'active' : '' }}">
@@ -71,6 +71,14 @@
                 </div>
             </div>
         </div>
+        <!-- Tambah Footer -->
+        <footer class="main-footer">
+            <div class="float-right d-none d-sm-block">
+                <b>Version</b> 1.0.0
+            </div>
+            <strong>Copyright &copy; {{ date('Y') }} <a href="#">{{ config('app.name') }}</a>.</strong> All
+            rights reserved.
+        </footer>
     </div>
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
