@@ -48,13 +48,13 @@
                                 <p>DataTables</p>
                             </a>
                         </li>
-                        {{-- <li class="nav-item">
+                        <li class="nav-item">
                             <a href="{{ route('users.index') }}"
                                 class="nav-link {{ request()->routeIs('users.*') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-users"></i>
                                 <p>Users</p>
                             </a>
-                        </li> --}}
+                        </li>
                     </ul>
                 </nav>
             </div>

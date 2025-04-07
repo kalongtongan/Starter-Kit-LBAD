@@ -3,6 +3,6 @@
 @section('content')
     <div class="container-fluid">
         <h1>Dashboard</h1>
-        <p>Welcome, Agung dan Grok! (Testing mode){{-- {{ Auth::user()->name }} --}}</p>
+        <p>Welcome, {{ Auth::user()->name }} (Testing mode)</p>
     </div>
 @endsection
